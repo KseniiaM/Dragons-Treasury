@@ -1,0 +1,58 @@
+﻿<Window x:Class="TheDragonsTreasury.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TheDragonsTreasury"
+        mc:Ignorable="d"
+        Title="Dragon`s Treasury" Height="650" Width="950" Loaded="Window_Loaded" KeyDown="Window_KeyDown">
+    <Window.Background>
+        <ImageBrush ImageSource="background11.png"/>
+    </Window.Background>
+    <Grid ShowGridLines="True">
+        <Grid.Background>
+            <ImageBrush ImageSource="background11.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="62*"/>
+            <ColumnDefinition Width="365*"/>
+            <ColumnDefinition Width="515*"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="workGrid" Grid.Column="1" Margin="10" ShowGridLines="True" Opacity="0.95" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+        </Grid>
+        <Image x:Name="Ruby" Source="ruby.jpg" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="119,39,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="Amber" Source="citrine.png" Grid.Column="2" HorizontalAlignment="Left" Height="3" Margin="256,157,0,0" VerticalAlignment="Top" Width="2" Visibility="Hidden"/>
+        <Image x:Name="Citrine" Source="yellow.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="Emerald" Source="emerald.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="Sapphire" Source="sapphire.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="Amethyst" Source="amethyst.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="none" Source="none.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="clear" Source="clear.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Label x:Name="label" Content="Jewelry:"  Grid.Column="2" HorizontalAlignment="Left" Margin="47,24,0,0" VerticalAlignment="Top" Width="258" Height="50" Background="{x:Null}" FontSize="32" Foreground="#FFE29322" FontFamily="Algerian"/>
+
+    </Grid>
+</Window>
