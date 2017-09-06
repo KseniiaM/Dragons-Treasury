@@ -98,40 +98,37 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="ruby.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Gold.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="citrine.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="yellow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="none.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="amethyst.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="emerald.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="sapphire.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="clear.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="background11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="background4.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\amethyst.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\background11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\background4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\citrine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\emerald.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\ruby.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\sapphire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\yellow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

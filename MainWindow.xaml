@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Dragon`s Treasury" Height="650" Width="950" Loaded="Window_Loaded" KeyDown="Window_KeyDown">
     <Window.Background>
-        <ImageBrush ImageSource="background11.png"/>
+        <ImageBrush ImageSource="Assets\background11.png"/>
     </Window.Background>
     <Grid ShowGridLines="True">
         <Grid.Background>
-            <ImageBrush ImageSource="background11.png"/>
+            <ImageBrush ImageSource="Assets\background11.png"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="62*"/>
@@ -44,14 +44,14 @@
             </Grid.ColumnDefinitions>
 
         </Grid>
-        <Image x:Name="Ruby" Source="ruby.jpg" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="119,39,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
-        <Image x:Name="Amber" Source="citrine.png" Grid.Column="2" HorizontalAlignment="Left" Height="3" Margin="256,157,0,0" VerticalAlignment="Top" Width="2" Visibility="Hidden"/>
-        <Image x:Name="Citrine" Source="yellow.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
-        <Image x:Name="Emerald" Source="emerald.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
-        <Image x:Name="Sapphire" Source="sapphire.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
-        <Image x:Name="Amethyst" Source="amethyst.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
-        <Image x:Name="none" Source="none.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
-        <Image x:Name="clear" Source="clear.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="Ruby" Source="Assets\ruby.jpg" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="119,39,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="Amber" Source="Assets\citrine.png" Grid.Column="2" HorizontalAlignment="Left" Height="3" Margin="256,157,0,0" VerticalAlignment="Top" Width="2" Visibility="Hidden"/>
+        <Image x:Name="Citrine" Source="Assets\yellow.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="Emerald" Source="Assets\emerald.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="Sapphire" Source="Assets\sapphire.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="Amethyst" Source="Assets\amethyst.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="none" Source="Assets\none.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
+        <Image x:Name="clear" Source="Assets\clear.png" Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="291,94,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden"/>
         <Label x:Name="label" Content="Jewelry:"  Grid.Column="2" HorizontalAlignment="Left" Margin="47,24,0,0" VerticalAlignment="Top" Width="258" Height="50" Background="{x:Null}" FontSize="32" Foreground="#FFE29322" FontFamily="Algerian"/>
 
     </Grid>
